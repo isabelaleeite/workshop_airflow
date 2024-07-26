@@ -6,7 +6,10 @@ authors = ["Isabela.leite <isabela.leeite@hotmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "3.11.5"
+python = ">=3.11,<3.12"
+apache-airflow = "^2.9.3"
+loguru = "^0.7.2"
+streamlit = "^1.37.0"
 
 
 [build-system]
